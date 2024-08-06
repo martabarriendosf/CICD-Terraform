@@ -97,7 +97,7 @@ resource "aws_instance" "ec2_instance" {
   key_name               = "resume-kp"
 
   tags = {
-    Name = "EC2 Instance Deployed with CICD (changed)"
+    Name = "EC2 Instance Deployed with CICD"
   }
 }
 
